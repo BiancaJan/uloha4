@@ -42,7 +42,8 @@ def troj2(vyska:int,znak:str):
     for riadok in range(0,vyska):
         print(" "*(vyska-(riadok+1)),end="")
         print(znak*(2*(riadok+1)))
-
+#musi byt 1 hviezdicka v prvom potom 3 v druhom atd
+#preprogramovat program tak aby boli hviezdy spravne
 troj2(4,"*")
 
 
